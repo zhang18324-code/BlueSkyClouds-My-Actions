@@ -22,7 +22,6 @@ jobs:
 
             - name: "安装依赖包"
               run: pip install -r ./requirements.txt
-                   pip install chardet
 
             - name: "运行 哔哩哔哩签到"
               run: python3 function/bilibili/bilibili.py
