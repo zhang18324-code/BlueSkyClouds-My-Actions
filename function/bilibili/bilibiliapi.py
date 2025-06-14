@@ -18,8 +18,9 @@ banner = r"""
         \/         \/                               哔哩哔哩 (゜-゜)つロ 干杯~
 """
 
+pip3 install chardet
 import base64
-import charde
+import chardet
 import functools
 import hashlib
 import json
